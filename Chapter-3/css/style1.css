@@ -1,0 +1,170 @@
+body{
+    /* background-image: url("../Sample\ Preview.png"); */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 100%;
+    font-family: "Poppins";
+}
+  
+#heading{
+    position: relative;
+    z-index: 3;
+}
+  
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+/* Heading */
+.container-fluid{
+    background-image: url("../images/images/Hero/Background.png");
+    background-size: 100%;
+    padding: 1% 13%;
+}
+
+/* Nav bar */
+.top-tittle{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.top-logo{
+    /* background-color: purple; */
+    height: 3rem;
+    width: 3rem;
+}
+
+.nav-item{
+    /* background-color: blue; */
+    padding: 0 18px;
+}
+
+.nav-link{
+    /* background-color: chartreuse; */
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+/* Under Nav Bar */
+.tittle-main{
+    /* background-color: coral; */
+    padding-top: 12% ;
+}
+
+.tittle-item{
+    /* background-color: darkcyan; */
+    font-weight: bold;
+    font-size: 6rem;
+}
+
+.tittle-button{
+    margin: 5% 3% 5% 0;
+    font-size: 2.5rem;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.tittle-font{
+    margin-top: 10%;
+}
+
+/* Mid Section */
+.mid-container{
+    /* background-color: plum; */
+    padding: 5% 10% 5% 10%;
+}
+
+.mid-logo{
+    /* background-color: powderblue; */
+    margin-bottom: 10%;
+}
+
+.mid-judul{
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.mid-box{
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.tittle-mini{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+/* Mid Section 2 */
+.colour-section{
+    background-color: skyblue;
+    font-size: 1.5rem;
+}
+
+.mid-tittle{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.mid-item{
+    /* background-color: slateblue; */
+    padding: 0% 0% 0 15%;
+}
+
+/* Mid Section 3 */
+.mid-section3{
+    /* background-color: thistle; */
+    padding: 5% 10%;
+}
+
+.under-mid{
+    margin-top: 5%;
+}
+
+.under-tittle{
+    margin-left: 7%;
+}
+
+.mid-pic1{
+    background-color: violet;
+    padding: 5% 4% 0 4%;
+    width: 100%;
+}
+
+.mid-pic2{
+    padding: 5% 0% 0 0%;
+    width: 100%;
+}
+
+/* Footer */
+.footer{
+    background-color: turquoise;
+}
+
+.box-footer{
+    padding: 0% 10%;
+}
+
+.footer-pic{
+    width:100%;
+}
+
+/* LAST */
+.last{
+    background-color: black;
+}
+
+.box-last{
+    padding:2% 15%;
+}
